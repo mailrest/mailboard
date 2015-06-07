@@ -2,7 +2,7 @@ name := """dashboard"""
 
 version := "1.0-SNAPSHOT"
 
-resolvers += "Local Maven Repository" at Path.userHome.asFile.toURI.toURL + ".m2/maven.repo"
+resolvers += "Local Maven Repository" at Path.userHome.asFile.toURI.toURL + ".m2/repository"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
