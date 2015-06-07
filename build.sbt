@@ -6,12 +6,10 @@ resolvers += "Local Maven Repository" at Path.userHome.asFile.toURI.toURL + ".m2
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
-scalaVersion := "2.11.1"
+scalaVersion := "2.11.6"
 
 libraryDependencies ++= Seq(
-  "com.noorq.casser" % "casser-core" % "1.0.0",
-  jdbc,
-  anorm,
+  "com.typesafe" % "config" % "1.3.0",
   cache,
   ws
 )
