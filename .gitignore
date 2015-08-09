@@ -14,3 +14,16 @@ dist
 /RUNNING_PID
 /.settings
 /bin/
+*.class
+*.log
+
+# sbt specific
+.cache
+.lib/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+.scala_dependencies
+.worksheet
