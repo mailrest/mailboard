@@ -1,4 +1,4 @@
-name := """dashboard"""
+name := """mailboard"""
 
 version := "1.0-SNAPSHOT"
 
